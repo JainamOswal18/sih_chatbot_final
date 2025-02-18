@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BVUCOEP Chatbot</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div class="chatbot-trigger">
+      <img src="./Images/icon.png" alt="Chatbot" />
+    </div>
+    <div class="chatbot-overlay">
+      <div class="chatbot-container">
+        <div class="chatbot-header">
+          <h2 id="welcomeMessage">Welcome To BVUCOEP</h2>
+          <h3 id="helpMessage">How Can I Help You?</h3>
+          <img src="./Images/icon.png" alt="Chatbot" />
+          <button class="close-btn" id="closeBtn">&times;</button>
+        </div>
+        <div class="chatbot-content" id="chatbotContent"></div>
+        <div class="chatbot-input" id="chatbotInput">
+          <input
+            type="text"
+            id="userInput"
+            placeholder="Type your message..."
+          />
+          <button type="submit" id="sendButton" aria-label="Send message">
+            <div class="send-icon"></div>
+          </button>
+          <button type="button" id="voiceButton" class="voice-button" aria-label="Voice input">
+            <div class="microphone-icon"></div>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/web-speech-api/1.0.1/web-speech-api.min.js"></script>
+  </body>
+</html>
