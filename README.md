@@ -8,7 +8,7 @@ Clone repo and create a virtual environment
 
 ```
 $ git clone https://github.com/JainamOswal18/sih_chatbot_final.git
-$ cd chatbotv1
+$ cd chatbot
 $ python3 -m venv venv
 ```
 
