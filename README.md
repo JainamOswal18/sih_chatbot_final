@@ -7,7 +7,7 @@ This repo currently contains the starter files.
 Clone repo and create a virtual environment
 
 ```
-$ git clone https://github.com/thekbbohara/chatbotv1.git
+$ git clone https://github.com/JainamOswal18/sih_chatbot_final.git
 $ cd chatbotv1
 $ python3 -m venv venv
 ```
